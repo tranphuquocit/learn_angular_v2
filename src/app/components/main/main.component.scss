@@ -1,0 +1,23 @@
+.center{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    .left1{
+      background-color: blanchedalmond;
+      width: 20%;
+      height: 500px;
+    }
+    .center1{
+      background-color: rgb(119, 79, 19);
+      width: 60%;
+      height: 500px;
+    }
+    .right1{
+      background-color: rgb(255, 205, 216);
+      width: 20%;
+      height: 500px;
+    }
+  }
+  

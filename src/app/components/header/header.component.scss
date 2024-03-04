@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    .left{
+      background-color: aqua;
+      width: 10%;
+      
+    }
+    .right{
+      background-color: bisque;
+      width: 90%;
+    }
+  }
+  .headLink{
+    text-align:center;
+    background-color: black;
+    height: 100px;
+  }
