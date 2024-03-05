@@ -1,17 +1,35 @@
-// .mau-do {
-//   color: red;
-// }
 
-// .mau-xanh {
-//   color: blue;
-// }
 
-.mau {
-  color: yellow;
-  &-do {
-    color: red;
+.header{
+  border: 2px solid red;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  text-decoration: none;
+  .left-head{
+    width: 8%;
+    margin-left: 25px;
   }
-  &-xanh {
-    color: blue;
+  .right-head {
+   width: 92%;
+  }
+}
+.under-head{
+  display: flex;
+  width: 100%;
+  border: 2px solid rgb(0, 3, 7);
+  .left-under{
+    width: 5%;
+    background-color: rgb(15, 107, 245);
+    margin-right: 3px;
+  }
+  .left-under h3{
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .right-under{
+   width:95%;
+    background-color: rgb(15, 107, 245);
   }
 }
