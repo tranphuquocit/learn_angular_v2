@@ -1,0 +1,31 @@
+.wrapper {
+    background-color: white;
+    height: auto;
+    padding-bottom: 5px;
+  
+    .search {
+      display: flex;
+      justify-content: center;
+      height: 50px;
+      width: 100%;
+  
+      #border-search {
+        margin: 5px;
+        width: 80%;
+      }
+      #button-search {
+        margin: 5px;
+      }
+    }
+    .re{
+      padding-top: 3px;
+    }
+    .title{
+      background-color: rgb(15, 107, 245);
+      display: flex;
+      margin: 5px;
+      padding-left: 15px;  
+     
+    }
+  }
+  

@@ -1,22 +1,21 @@
 <div class="body">
     <div class="left-body">
         <div class="top-body-1">
-            <h1 style="color: rgb(15, 107, 245);">HELLO WORLD</h1>
+            <h1 style="color: rgb(15, 107, 245);">{{item}}</h1>
         </div>
         <div class="top-body-2">
-            <span>September 28 2024</span>
-            <a href id="link"> Hocbai.vn</a>
-            <a href id="link"> Uncategorized</a>
-            <a href id="link"> Edit Post</a>
+            <span>{{item1}}</span>
+            <a href id="link">{{item2}}</a>
+            <a href id="link"> {{item3}}</a>
+            <a href id="link"> {{item4}}</a>
         </div>
         <div class="top-body-3">
             <span>
-                Welcom to WordPress! This is your first post edit or delete it
-                then start writing!
+                {{item5}}
             </span>
         </div>
         <div class="top-body-4">
-            <span>One Comment</span>
+            <span>  {{item6}}</span>
             <div class="dot"></div>
         </div>
     </div>
@@ -32,86 +31,8 @@
             </div>
         </div>
 
-        <div class="wrapper">
-            <div class="re">
-                <div class="title">
-                    <h3 style="color: white">Recent Post</h3>
-                </div>
-            </div>
-            <ul>
-                <li>
-                    Hello World!
-                </li>
-                <li>
-                    Hello WordPress!
-                </li>
-            </ul>
-        </div>
-        <div class="wrapper">
-            <div class="re">
-                <div class="title">
-                    <h3 style="color: white">Recent Comments</h3>
-                </div>
-            </div>
-            <ul>
-                <li>
-                    A WordPress Commenter on Hello World!
-                </li>
-            </ul>
-        </div>
-        <div class="wrapper">
-            <div class="re">
-                <div class="title">
-                    <h3 style="color: white">Archives</h3>
-                </div>
-            </div>
-            <ul>
-                <li>
-                    September 2024
-                </li>
-                <li>
-                    Octocber 2024
-                </li>
-                <li>
-                    December 2024
-                </li>
-            </ul>
-        </div>
-        <div class="wrapper">
-            <div class="re">
-                <div class="title">
-                    <h3 style="color: white">Categories</h3>
-                </div>
-            </div>
-            <ul>
-                <li>
-                    Uncategorized
-                </li>
-            </ul>
-        </div>
-        <div class="wrapper">
-            <div class="re">
-                <div class="title">
-                    <h3 style="color: white">Meta</h3>
-                </div>
-            </div>
-            <ul>
-                <li>
-                    Site Admnin
-                </li>
-                <li>
-                    Log out
-                </li>
-                <li>
-                    Entries RSS
-                </li>
-                <li>
-                    Comments RSS
-                </li>
-                <li>
-                    WordPress org
-                </li>
-            </ul>
+        <div *ngFor="let item of listNews">
+            <app-news [title]="item.title" [content]="item.content"></app-news>
         </div>
     </div>
 </div>

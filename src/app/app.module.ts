@@ -7,6 +7,7 @@ import { FormsModule } from '@angular/forms';
 import { HeaderComponent } from 'src/components/header/header.component';
 import { MainComponent } from 'src/components/main/main.component';
 import { FooterComponent } from 'src/components/footer/footer.component';
+import { NewsComponent } from 'src/components/news/news.component';
 
 const COMPONENT = [
 ]
@@ -16,7 +17,8 @@ const COMPONENT = [
     AppComponent,
     HeaderComponent,
     MainComponent,
-    FooterComponent
+    FooterComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,
