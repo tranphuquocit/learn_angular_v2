@@ -1,1 +1,35 @@
-Nơi này là chỗ em import các component mà em tạo ra vào đây!
+<div class="phep-tinh">
+  <span>{{phepTinh}}</span>
+</div>
+<div class="ket-qua">
+  <span>{{inputValueFromButton}}</span>
+</div>
+<div class="hang hang-so-thu-4">
+  <app-button [inputValue]="'x<sup>2</sup>'" (outputValue)="clickButton($event)"></app-button>
+  <app-button [inputValue]="'√'" (outputValue)="clickButton($event)"></app-button>
+  <app-button [inputValue]="'%'" (outputValue)="clickButton($event)"></app-button>
+  <app-button [inputValue]="'÷'" (outputValue)="clickButton($event)"></app-button>
+</div>
+<div class="hang hang-so-thu-3">
+  <app-button [inputValue]="7" (outputValue)="clickButton($event)"></app-button>
+  <app-button [inputValue]="8" (outputValue)="clickButton($event)"></app-button>
+  <app-button [inputValue]="9" (outputValue)="clickButton($event)"></app-button>
+  <app-button [inputValue]="'x'" (outputValue)="clickButton($event)"></app-button>
+</div>
+<div class="hang hang-so-thu-2">
+  <app-button [inputValue]="4" (outputValue)="clickButton($event)"></app-button>
+  <app-button [inputValue]="5" (outputValue)="clickButton($event)"></app-button>
+  <app-button [inputValue]="6" (outputValue)="clickButton($event)"></app-button>
+  <app-button [inputValue]="'-'" (outputValue)="clickButton($event)"></app-button>
+</div>
+<div class="hang hang-so-thu-1">
+  <app-button [inputValue]="1" (outputValue)="clickButton($event)"></app-button>
+  <app-button [inputValue]="2" (outputValue)="clickButton($event)"></app-button>
+  <app-button [inputValue]="3" (outputValue)="clickButton($event)"></app-button>
+  <app-button [inputValue]="'+'" (outputValue)="clickButton($event)"></app-button>
+</div>
+<div class="hang hang-0">
+  <app-button [inputValue]="'0'" (outputValue)="clickButton($event)"></app-button>
+  <app-button [inputValue]="'.'" (outputValue)="clickButton($event)"></app-button>
+  <app-button [inputValue]="'='" (outputValue)="clickButton($event)"></app-button>
+</div>

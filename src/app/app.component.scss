@@ -1,17 +1,22 @@
-// .mau-do {
-//   color: red;
-// }
-
-// .mau-xanh {
-//   color: blue;
-// }
-
-.mau {
-  color: yellow;
-  &-do {
-    color: red;
+.hang {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 250px;
+  margin-top: 5px;
+  .hang-0 {
+    background-color: aqua;
   }
-  &-xanh {
-    color: blue;
+}
+
+.ket-qua {
+  height: 50px;
+  border: 1px solid gainsboro;
+  width: 250px;
+  border-radius: 4px;
+  text-align: right;
+  line-height: 50px;
+  span {
+    margin-right: 5px;
   }
 }
